@@ -1,0 +1,117 @@
+libstatistics-basic-perl (1.6611-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 01:13:37 +0100
+
+libstatistics-basic-perl (1.6611-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * Add debian/upstream/metadata
+  * Import upstream version 1.6611
+  * Update copyright years for debian/* packaging files
+  * Drop ProhibitIndirectSyntax.patch patch.
+    We do not run anymore the author tests thus we can skip this
+    Perl::Critic reported violation about subroutine new beeing called via
+    indirect syntax.
+  * Declare compliance with Debian policy 3.9.6
+  * Declare package as autopkgtestable
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 26 Jul 2015 15:37:14 +0200
+
+libstatistics-basic-perl (1.6607-1) unstable; urgency=low
+
+  * Imported Upstream version 1.6607
+  * Update debian/copyright file.
+    Update copyright years for upstream files and update copyrights for
+    debian/* packaging.
+  * Refresh ProhibitIndirectSyntax.patch patch
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 24 Jan 2012 14:16:49 +0100
+
+libstatistics-basic-perl (1.6605-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+  * Use new 3.0 (quilt) source format
+  * Standards-Version 3.9.1 (no changes)
+  * Add myself to Uploaders
+
+  [ Ryan Niebur ]
+  * Email change: Ryan Niebur -> ryan@debian.org
+
+  [ Salvatore Bonaccorso ]
+  * Email change: Salvatore Bonaccorso -> carnil@debian.org
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Refresh patch.
+  * debian/copyright: update formatting and packaging copyright years.
+  * Switch to debhelper compatibility level 8.
+  * Bump Standards-Version to 3.9.2 (no changes).
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 22 Jan 2012 17:11:57 +0100
+
+libstatistics-basic-perl (1.6601-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * Add patch ProhibitIndirectSyntax.patch to fix a Perl::Critic policy
+    violation (Closes: #546227).
+  * Add myself to Uploaders. 
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Remove patch ProhibitCommaSeparatedStatements.patch, not needed any more.
+  * Don't run author tests any more on upstream request (debian/rules,
+    debian/control).
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 13 Sep 2009 14:25:20 +0200
+
+libstatistics-basic-perl (1.6600-2) unstable; urgency=low
+
+  * Add patch ProhibitCommaSeparatedStatements.patch to fix a Perl::Critic
+    policy violation (closes: #543057). Add quilt framework.
+  * Add /me to Uploaders.
+  * Set Standards-Version to 3.8.3 (no changes).
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 22 Aug 2009 21:28:39 +0200
+
+libstatistics-basic-perl (1.6600-1) unstable; urgency=low
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ryan Niebur ]
+  * New upstream release
+  * Debian Policy 3.8.2
+  * enable author tests
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Wed, 01 Jul 2009 20:22:06 -0700
+
+libstatistics-basic-perl (1.6500-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Fri, 29 May 2009 08:19:15 -0700
+
+libstatistics-basic-perl (1.6007-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #526246)
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Sat, 02 May 2009 08:28:50 -0700

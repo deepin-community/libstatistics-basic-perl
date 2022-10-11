@@ -1,0 +1,24 @@
+Source: libstatistics-basic-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl, libnumber-format-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ryan Niebur <ryan@debian.org>, Jonathan Yu <jawnsy@cpan.org>,
+ gregor herrmann <gregoa@debian.org>, Salvatore Bonaccorso <carnil@debian.org>
+Standards-Version: 3.9.6
+Homepage: https://metacpan.org/release/Statistics-Basic
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libstatistics-basic-perl.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libstatistics-basic-perl.git
+Testsuite: autopkgtest-pkg-perl
+
+Package: libstatistics-basic-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}, libnumber-format-perl
+Description: collection of very basic statistics modules
+ Statistics::Basic is a collection of very basic statistics modules. It
+ includes modules to find the correlation between two arrays, find the
+ covariance between two arrays, find the least square fit for two arrays,
+ find the mean of an array, find the median of an array, find the mode of
+ an array, find the standard deviation of an array, and find the variance
+ of an array.

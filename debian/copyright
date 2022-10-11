@@ -1,0 +1,39 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Statistics-Basic
+Upstream-Contact: Paul Miller <jettero@cpan.org>
+Source: https://metacpan.org/release/Statistics-Basic
+
+Files: *
+Copyright: 2012, Paul Miller
+License: LGPL-2.1
+
+Files: debian/*
+Copyright: 2009, Ryan Niebur <ryanr@debian.org>
+ 2009-2012, gregor herrmann <gregoa@debian.org>
+ 2009-2015, Salvatore Bonaccorso <carnil@debian.org>
+ 2010, Jonathan Yu <jawnsy@cpan.org>
+License: LGPL-2.1 or Artistic or GPL-1+
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.
+
+License: LGPL-2.1
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; version 2.1.
+ .
+ On Debian systems, the complete text of version 2.1 of the GNU Lesser
+ General Public License can be found in `/usr/share/common-licenses/LGPL-2.1'.
